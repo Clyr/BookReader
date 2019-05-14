@@ -47,7 +47,7 @@ public class SplashActivity extends AppCompatActivity {
             }
         };
 
-        tvSkip.postDelayed(runnable, 2000);
+        tvSkip.postDelayed(runnable, 0);
 
         tvSkip.setOnClickListener(new View.OnClickListener() {
             @Override
